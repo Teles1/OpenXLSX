@@ -36,19 +36,19 @@ option(OPENXLSX_ENABLE_LIBZIP "Enable using libzip" OFF)
 #=======================================================================================================================
 add_subdirectory(OpenXLSX)
 
-if(${OPENXLSX_CREATE_DOCS})
-    add_subdirectory(Documentation)
-endif()
+#if(${OPENXLSX_CREATE_DOCS})
+#    add_subdirectory(Documentation)
+#endif()
 
-if(${OPENXLSX_BUILD_SAMPLES})
-    add_subdirectory(Examples)
-endif()
+#if(${OPENXLSX_BUILD_SAMPLES})
+#    add_subdirectory(Examples)
+#endif()
 
-if(${OPENXLSX_BUILD_TESTS})
-    add_subdirectory(Tests)
-endif()
+#if(${OPENXLSX_BUILD_TESTS})
+#    add_subdirectory(Tests)
+#endif()
 
-if(${OPENXLSX_BUILD_BENCHMARKS})
-    add_subdirectory(Benchmarks)
-endif()
+#if(${OPENXLSX_BUILD_BENCHMARKS})
+#    add_subdirectory(Benchmarks)
+#endif()
 
